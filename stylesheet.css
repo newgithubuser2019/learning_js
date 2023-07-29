@@ -1,8 +1,21 @@
+html {
+    box-sizing: border-box;
+    }
+* {
+    box-sizing: inherit;
+    }
 body {
 background-color: #faf2e4;
 margin: 0 10%;
 font-family: sans-serif;
 }
+p {
+    border-style: groove groove groove groove;
+    border-width: thin thin thin thin;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    }
 h1 {
 text-align: center;
 font-family: serif;
@@ -15,3 +28,16 @@ h2 {
 color: #d1633c;
 font-size: 1em;
 }
+header {
+    height: 15em;
+    }
+main {
+    padding: 1em;
+    }
+/*
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    padding-bottom: .1em;
+    }
+*/
